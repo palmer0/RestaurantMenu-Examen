@@ -67,24 +67,4 @@ public class SectionsModel implements SectionsContract.Model {
     return data;
   }
 
-  @Override
-  public void onRestartScreen(MenuItems data) {
-    // Log.e(TAG, "onRestartScreen()");
-
-    // TODO: include some code if is necessary
-  }
-
-  @Override
-  public void onDataFromNextScreen(MenuItems data) {
-    // Log.e(TAG, "onDataFromNextScreen()");
-
-    // TODO: include some code if is necessary
-  }
-
-  @Override
-  public void onDataFromPreviousScreen(MenuItems data) {
-    // Log.e(TAG, "onDataFromPreviousScreen()");
-
-    // TODO: include some code if is necessary
-  }
 }

@@ -32,9 +32,6 @@ public interface ItemsContract {
 
   interface Model {
     List<MenuItem> getStoredData();
-    void onDataFromNextScreen(List<MenuItem> data);
-    void onRestartScreen(List<MenuItem> data);
-    void onDataFromPreviousScreen(List<MenuItem> data);
   }
 
 }

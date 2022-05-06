@@ -1,5 +1,6 @@
 package es.ulpgc.eite.restaurantmenu.items;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import es.ulpgc.eite.restaurantmenu.data.MenuItem;
@@ -15,7 +16,7 @@ public class ItemsModel implements ItemsContract.Model {
 
 
   public ItemsModel() {
-    //data=new ArrayList<>();
+    data=new ArrayList<>();
   }
 
   @Override
@@ -24,24 +25,4 @@ public class ItemsModel implements ItemsContract.Model {
     return data;
   }
 
-  @Override
-  public void onRestartScreen(List<MenuItem> data) {
-    // Log.e(TAG, "onRestartScreen()");
-
-    // TODO: include some code if is necessary
-  }
-
-  @Override
-  public void onDataFromNextScreen(List<MenuItem> data) {
-    // Log.e(TAG, "onDataFromNextScreen()");
-
-    // TODO: include some code if is necessary
-  }
-
-  @Override
-  public void onDataFromPreviousScreen(List<MenuItem> data) {
-    // Log.e(TAG, "onDataFromPreviousScreen()");
-
-    // TODO: include some code if is necessary
-  }
 }
